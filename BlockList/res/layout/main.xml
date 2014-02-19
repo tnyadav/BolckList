@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+     <com.google.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="a14fb0bbf452a8b"
+        ads:loadAdOnCreate="true" >
+    </com.google.ads.AdView>
+    <Button
+        android:id="@+id/but_circle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Blacklist Unwanted CIRCLE" />
+
+    <Button
+        android:id="@+id/but_operator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/but_circle"
+        android:layout_marginTop="15dp"
+        android:text="Blacklist Unwanted OPERATOR" />
+
+    <Button
+        android:id="@+id/but_call"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/but_circle"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="15dp"
+        android:text="Blacklist Unwanted CALL" />
+
+    <Button
+        android:id="@+id/but_set"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/but_operator"
+        android:layout_marginTop="15dp"
+        android:text="Settings" />
+
+    <Button
+        android:id="@+id/but_sms"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/but_call"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="15dp"
+        android:text="Blacklist Unwanted SMS" />
+
+</RelativeLayout>

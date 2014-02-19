@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">Blacklist Unwanted</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Blacklist Unwanted</string>
+
+  <string name="hello">Get Circle of any Mobile Number</string>
+   
+    <string name="mobile_number_hint">Enter Mobile Number</string>
+	<string name="button_ok">Submit</string>
+	<string name="MCDatabase_onUpdate">"
+	    DROP TABLE IF NOT EXISTS circle_operator
+	    DROP TABLE IF NOT EXISTS circles
+	    DROP TABLE IF NOT EXISTS operators
+	"</string>
+</resources>

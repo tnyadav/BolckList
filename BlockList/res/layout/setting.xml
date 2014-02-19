@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <CheckBox
+        android:id="@+id/cb_sms"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Blacklist Unwanted SMSs" />
+
+    <TextView
+        android:id="@+id/txt_sms"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="36dp"
+        android:text="Your SMS Blacklist is "
+        android:textSize="18dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/txt_call"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txt_sms"
+        android:layout_marginTop="15dp"
+         android:textSize="18dp"
+        android:text="Your Call Blacklist is "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/txt_circle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txt_call"
+        android:layout_marginTop="15dp"
+        android:text="Your Circle Blacklist is "
+         android:textSize="18dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <CheckBox
+        android:id="@+id/cb_call"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/cb_sms"
+        android:layout_marginTop="10dp"
+        android:text="Blacklist Unwanted Calls" />
+
+    <TextView
+        android:id="@+id/txt_operator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txt_circle"
+        android:layout_marginTop="15dp"
+         android:textSize="18dp"
+        android:text="Your Operator Blacklist is "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <CheckBox
+        android:id="@+id/cb_circle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/cb_call"
+        android:layout_marginTop="10dp"
+        android:text="Blacklist Unwanted Circles" />
+
+    <CheckBox
+        android:id="@+id/cb_operator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/cb_circle"
+        android:text="Blacklist Unwanted Operators" />
+
+</RelativeLayout>
