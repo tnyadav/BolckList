@@ -99,6 +99,7 @@
         android:weightSum="1" >
 
         <LinearLayout
+            android:id="@+id/Setting"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight=".50"
@@ -110,82 +111,6 @@
                 android:src="@drawable/logo" 
                 android:layout_gravity="center"
                 />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" >
-
-                <ToggleButton
-                    android:id="@+id/tglCallBlock"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="ToggleButton" />
-
-                <ToggleButton
-                    android:id="@+id/toggleButton1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="ToggleButton" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" >
-
-                <Button
-                    android:id="@+id/btnCallScheduleBlock"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Button" />
-
-                <TextView
-                    android:id="@+id/textView1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Medium Text"
-                    android:textAppearance="?android:attr/textAppearanceMedium" />
-
-            </LinearLayout>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight=".50"
-            android:orientation="vertical" >
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/logo" 
-                android:layout_gravity="center"
-                />
-
-            <ToggleButton
-                android:id="@+id/tglSmsBlock"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="ToggleButton" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" >
-
-                <Button
-                    android:id="@+id/btnSmsScheduleBlock"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Button" />
-
-                <TextView
-                    android:id="@+id/textView2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Medium Text"
-                    android:textAppearance="?android:attr/textAppearanceMedium" />
-
-            </LinearLayout>
         </LinearLayout>
     </LinearLayout>
 
