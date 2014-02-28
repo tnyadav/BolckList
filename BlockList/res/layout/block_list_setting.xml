@@ -12,7 +12,7 @@
             android:id="@+id/imgContactSetting"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@drawable/logo" />
+            android:src="@drawable/user" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -35,7 +35,7 @@
                     android:id="@+id/btnDoneSetting"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Button" />
+                    android:text="Save" />
             </LinearLayout>
 
             <TextView
@@ -73,8 +73,9 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Medium Text"
-                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                    android:text="@string/txt_block_incomming_call"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="10sp" />
 
                 <ToggleButton
                     android:id="@+id/tglCallIncommingBlock"
@@ -85,8 +86,9 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Medium Text"
-                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                    android:text="@string/txt_block_outgoinging_call"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="10sp" />
 
                 <ToggleButton
                     android:id="@+id/tglCallOutgoingBlock"
@@ -104,7 +106,7 @@
                     android:id="@+id/btnCallScheduleBlockStartTime"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Button" />
+                    android:text="@string/btn_start_time" />
 
                 <TextView
                     android:id="@+id/txtStartTimeCall"
@@ -122,7 +124,7 @@
                     android:id="@+id/btnCallScheduleBlockEndTime"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Button" />
+                    android:text="@string/btn_end_time" />
 
                 <TextView
                     android:id="@+id/txtEndTimeCall"
@@ -154,8 +156,9 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Medium Text"
-                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                    android:text="@string/txt_block_incomming_sms"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="10sp" />
 
                 <ToggleButton
                     android:id="@+id/tglSmsIncomingBlock"
@@ -166,8 +169,9 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Medium Text"
-                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                    android:text="@string/txt_block_outgoing"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="10sp" />
 
                 <ToggleButton
                     android:id="@+id/tglSmsOutgoingBlock"
@@ -185,7 +189,7 @@
                     android:id="@+id/btnSmsScheduleBlockStartTime"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Button" />
+                    android:text="@string/btn_start_time" />
 
                 <TextView
                     android:id="@+id/txtStartTimeSms"
@@ -203,7 +207,7 @@
                     android:id="@+id/btnSmsScheduleBlockEndTime"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Button" />
+                    android:text="@string/btn_end_time" />
 
                 <TextView
                     android:id="@+id/txtEndTimeSms"

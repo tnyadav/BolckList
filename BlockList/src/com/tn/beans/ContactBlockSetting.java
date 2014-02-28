@@ -174,6 +174,31 @@ public class ContactBlockSetting {
 	public void setSmsScheduleBlockEndTime(long smsScheduleBlockEndTime) {
 		this.smsScheduleBlockEndTime = smsScheduleBlockEndTime;
 	}
+	public ContactBlockSetting(int contactId, String contactName,
+			String contactNumber, boolean isIncomingCallBlocked,
+			boolean isOutgoingCallBlocked, boolean isIncomingSmsBlocked,
+			boolean isOutgoingSmsBlocked, boolean isScheduleCallBlocked,
+			boolean isScheduleSmsBlocked, long callScheduleBlockStartTime,
+			long callScheduleBlockEndTime, long smsScheduleBlockStartTime,
+			long smsScheduleBlockEndTime) {
+		super();
+		this.contactId = contactId;
+		this.contactName = contactName;
+		this.contactNumber = contactNumber;
+		this.isIncomingCallBlocked = isIncomingCallBlocked;
+		this.isOutgoingCallBlocked = isOutgoingCallBlocked;
+		this.isIncomingSmsBlocked = isIncomingSmsBlocked;
+		this.isOutgoingSmsBlocked = isOutgoingSmsBlocked;
+		this.isScheduleCallBlocked = isScheduleCallBlocked;
+		this.isScheduleSmsBlocked = isScheduleSmsBlocked;
+		this.callScheduleBlockStartTime = callScheduleBlockStartTime;
+		this.callScheduleBlockEndTime = callScheduleBlockEndTime;
+		this.smsScheduleBlockStartTime = smsScheduleBlockStartTime;
+		this.smsScheduleBlockEndTime = smsScheduleBlockEndTime;
+	}
+	public ContactBlockSetting() {
+		
+	}
 	
 
 }

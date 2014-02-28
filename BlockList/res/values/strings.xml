@@ -14,4 +14,10 @@
 	    DROP TABLE IF NOT EXISTS circles
 	    DROP TABLE IF NOT EXISTS operators
 	"</string>
+	<string name="txt_block_incomming_call">Block Incomming Call</string>
+	<string name="txt_block_outgoinging_call">Block Outgoing Call</string>
+	<string name="txt_block_incomming_sms">Block Incomming Sms</string>
+	<string name="txt_block_outgoing">Block Outgoing Sms</string>
+	<string name="btn_start_time">Start time</string>
+	<string name="btn_end_time">End Time</string>
 </resources>
