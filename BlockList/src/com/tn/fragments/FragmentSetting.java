@@ -1,5 +1,7 @@
 package com.tn.fragments;
 
+import com.blocklist.R;
+
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -24,7 +26,7 @@ public class FragmentSetting extends FragmentBase{
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 		
-		return super.onCreateView(inflater, container, savedInstanceState);
+		return  inflater.inflate(R.layout.block_list_setting, container , false);
 	}
 
 	@Override

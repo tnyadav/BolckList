@@ -15,9 +15,14 @@
 	    DROP TABLE IF NOT EXISTS operators
 	"</string>
 	<string name="txt_block_incomming_call">Block Incomming Call</string>
+	<string name="txt_scedule_block_incomming_call">Schedule Block Incomming Call</string>
 	<string name="txt_block_outgoinging_call">Block Outgoing Call</string>
+	<string name="txt_scedule_block_outgoing_call">Schedule Block Outgoing Call</string>
 	<string name="txt_block_incomming_sms">Block Incomming Sms</string>
+	<string name="txt_scedule_block_incomming_sms">Schedule Block Incomming Sms</string>
 	<string name="txt_block_outgoing">Block Outgoing Sms</string>
+	<string name="txt_scedule_block_outgoing_sms">Schedule Block Outgoing Sms</string>
 	<string name="btn_start_time">Start time</string>
 	<string name="btn_end_time">End Time</string>
+	<color name="view_background_color">#8dc43f</color>
 </resources>
